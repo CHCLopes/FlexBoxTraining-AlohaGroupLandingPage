@@ -1,0 +1,417 @@
+html{
+  background-color: #b2eaf1b4;
+  color: aliceblue;
+  font-family: 'Fredoka', sans-serif;
+  width: 99vw;
+  justify-content: center;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.horizontal{
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.alignItensCenter {
+  align-items: center;
+}
+
+.alignSelf{
+  align-self: center;
+}
+
+.justifySelf{
+  justify-self: center;
+}
+
+.posStart{
+  justify-self: flex-start ;
+}
+
+.spaceBetween{
+  justify-content: space-between;
+}
+
+.spaceAround{
+  justify-content: space-around;
+}
+
+.min-space{
+  margin: 0.1rem;
+  padding: 0.18rem;
+}
+
+.rounded{
+  border-radius: 1rem;
+}
+
+.rTrans{
+	-webkit-mask-image: linear-gradient(to right, transparent 15%, black 70%);
+}
+
+.lTrans{
+  -webkit-mask-image: linear-gradient(to left, transparent 15%, black 70%);
+}
+
+.tTrans{
+  -webkit-mask-image: linear-gradient(to bottom, transparent 15%, black 30%);
+}
+
+.bTrans {
+  -webkit-mask-image: linear-gradient(to top, transparent 15%, black 35%);
+}
+
+.btn{
+  background-image: linear-gradient(rgb(3, 81, 90), rgb(75, 253, 229));;
+  color: aliceblue;
+  display: flex;
+  line-height: 2.5rem;
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
+  justify-content: center;
+  border-radius: 2rem;
+  width: 10rem;
+  height: 2.5rem;
+  text-decoration: none;
+  margin: 0.4rem;
+  padding: 0.4rem;
+}
+
+.btn:hover{
+  color: rgb(252, 71, 0);
+  font-weight: bold;  
+}
+
+.border{
+  border: 2px solid aliceblue;
+}
+
+.gradientBorder {
+  border: 2px solid;
+  border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+}
+
+.orangeTxt{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: rgb(252, 71, 0);
+}
+
+.cursiveG{
+  font-family: 'Dancing Script', cursive;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.img{
+  height: 75vh;
+  width: 35vw;
+  border-radius: 1rem;
+}
+
+/*////////////////////////////////////////////////*/
+
+header{
+  background-image: linear-gradient(rgb(3, 81, 90), rgb(75, 253, 229));
+  height: 6rem;
+  width: 98%;
+  }
+
+#logo {
+  width: 40%;
+  height: 80%;
+}
+
+#logo Img{
+  height: 90%;
+  width: 15%;
+}
+
+#logo h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+}
+
+#list-itens{
+  width: 30%;
+  height: 80%;
+  list-style:none;
+}
+
+#list-itens li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+ }
+
+#list-itens li a:hover{
+  color: rgb(252, 71, 0);
+  font-weight: bold;  
+}
+
+/*////////////////////////////////////////////////*/
+
+#apresentacao {
+  height: 80vh;
+  width: 98%;
+}
+
+#apresentacao h1{
+  color: rgb(7, 102, 112);
+}
+
+/*////////////////////////////////////////////////*/
+
+#quem-somos{
+  height: 80vh;
+  width: 98%;
+  text-align: center;
+  text-justify: distribute-all-lines;
+  margin-right: 10px;
+ }
+
+#quem-somos h2{
+  color: rgb(7, 102, 112);
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  }
+
+#quem-somos h2::before{
+content: "";
+height:2rem;
+width: 0.1rem;
+margin:0.2rem;
+background-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) ;
+position: relative;
+border: 2px solid;
+border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+}
+
+#quem-somos h2::after{
+  content: "";
+  height:2rem;
+  width: 0.1rem;
+  margin:0.2rem;
+  background-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) ;
+  position: relative;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+  
+  }
+
+#quem-somos p{
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+/*////////////////////////////////////////////////*/
+
+#servicos{
+  background-image: linear-gradient(rgb(3, 81, 90), rgb(75, 253, 229),rgb(3, 81, 90));
+  height: 80vh;
+  width: 98%;
+  font-family: 'Dancing Script', cursive;
+  margin: 5rem 0;
+  
+}
+
+#servicos h2{
+  font-size: 3rem;
+  margin: 2rem 1rem;
+}
+
+#servicos h2::before{
+  content: "";
+  height:2rem;
+  width: 0.1rem;
+  margin:0.2rem;
+  background-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) ;
+  position: relative;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+  }
+
+  #servicos h2::after{
+    content: "";
+    height:2rem;
+    width: 0.1rem;
+    margin:0.2rem;
+    background-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) ;
+    position: relative;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+    }
+
+#menuServicos{
+  width: 90%;
+}
+
+#menuServicos p{
+  font-size: 2rem;
+}
+
+.item-servico a {
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.item-servico img{
+  width: 100%;
+  height: 100%;
+}
+
+#planos{
+  width: 98%;
+  height: auto;
+}
+
+#planos h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+  color: rgb(252, 71, 0);
+  width: fit-content;
+}
+
+#planos h2::before{
+  content: "";
+  height:1em;
+  width: 0.1rem;
+  margin:0.2rem;
+  background-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) ;
+  position: relative;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+  }
+
+  #planos h2::after{
+    content: "";
+    height:1em;
+    width: 0.1rem;
+    margin:0.2rem;
+    background-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) ;
+    position: relative;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+    }
+
+.list-planos{
+  width: 95%;
+}
+
+.item-plano{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: rgb(7, 102, 112);
+  border: 2px solid;
+  border-image: linear-gradient(45deg, rgb(252, 71, 0), yellow 100%) 1;
+  text-align: center;
+  align-items: center;
+}
+
+.item-plano .btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+}
+
+.item-plano h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  color: rgb(252, 71, 0);
+  width: fit-content;
+}
+
+.item-plano h3::after{
+  content: "";
+  background-color: #122A57;
+  width: 95%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  align-self: center;
+}
+
+.item-plano ul{
+  padding: 10px 20px;
+}
+
+.item-plano ul li{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.item-plano ul li::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #122A57;
+  margin-right: 5px;
+}
+
+footer {
+  background-image: linear-gradient(rgb(3, 81, 90), rgba(255, 255, 255, 0.308));
+  height: 3rem;
+  width: 98%;
+  border: 2px solid aliceblue  
+}
+
+footer ul{
+  justify-content: space-between;
+  display: flex;
+}
+
+
+/* mobile */
+
+@media(max-width: 992px) {
+  .flex-container{
+    flex-direction: column;
+  }
+  
+  .apresentacao{
+    flex-direction: column-reverse;
+  }
+
+  .apresentacao .texto-apresentacao{
+    width: 100%;
+  }
+
+  #quem-somos{
+    flex-direction: column-reverse;
+  }
+
+  #quem-somos img{
+    min-width: 320px;
+    margin:auto;
+  }
+
+  .list-servicos {
+    flex-direction: column;
+  }
+
+  .item-servico img{
+    width: 50%;
+    margin:auto
+  }
+
+  .list-planos{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list-planos .item-plano{
+    max-width: 90%;
+    margin:auto;
+    width: 100%;
+  }
+
+
+}
