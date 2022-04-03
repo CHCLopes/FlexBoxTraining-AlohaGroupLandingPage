@@ -33,6 +33,10 @@
     height: auto;
   }
 
+  #logo h1{
+    font-size: 3em;
+  }
+
   .btn{
     width: 60%;
     height: fit-content;
