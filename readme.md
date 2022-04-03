@@ -14,3 +14,4 @@ Sites ferramentas:
 - [dio](web.dio.me) "aprendizado"
 - [google](google.com) "pesquisa"
 
+Site Hospedado: [Aloha Turismo](https://alohaturismo.netlify.app/)
