@@ -4,13 +4,13 @@
   }
 
   header {
-    width: 100%;
+    width: 95%;
     height: fit-content;
   }
 
   #menu {
     flex-direction: column-reverse;
-    width: 100%;
+    width: 95%;
     justify-items: space-between;
   }
 
@@ -31,6 +31,7 @@
     margin-left: 2%;
     width: 90%;
     height: auto;
+    justify-content: center;
   }
 
   #logo h1{
@@ -60,7 +61,7 @@
  }
   
   #servicos{
-    width: 100vw;
+    width: 93%;
     height: fit-content;
     margin-left: 2%;
   }
@@ -88,7 +89,7 @@
   }
 
   #planos{
-    width: 100vw;
+    width: 95%;
     height: fit-content;
     margin-left: 2%;
   }
@@ -99,14 +100,6 @@
     font-size: 2em;
     margin-top: 2rem;
     margin-left: 35%;
-  }
-
-
-  .item-servico{
-    display: flex;
-    justify-itens: center;
-    font-size: 1em;
-    margin-top: 2rem;
   }
 
   .list-planos{
